@@ -1,0 +1,24 @@
+[project]
+name = "Reimbursement-System"
+version = "0.1.0"
+description = "A FastAPI application with Astral UV"
+authors = [
+    { name = "Robin Dai" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    # Web 框架
+    "fastapi>=0.117.1",
+    "uvicorn >= 0.17.6",
+    # 数据库
+    "sqlalchemy>=2.0.32",
+    "asyncpg>=0.30.0", # PostgreSQL 异步驱动
+    "psycopg[binary] >= 3.2.10", # PostgreSQL 同步驱动
+    # 认证和安全
+    "passlib[bcrypt]>=1.7.4",
+    "python-multipart>=0.0.20",
+    "jose>=1.0.0",
+    "package-name>=0.1",
+]

@@ -1,0 +1,8 @@
+uvicorn == 0.17.6
+sqlalchemy == 2.0.32
+psycopg[binary] == 3.2.10
+asyncpg == 0.30.0
+fastapi == 0.117.1
+jose == 1.0.0
+passlib == 1.7.4
+python-multipart == 0.0.20
